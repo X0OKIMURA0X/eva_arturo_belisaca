@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eceaea;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+main {
+    padding: 2em;
+}
+
+h1, h2, h3 {
+    margin-top: 0;
+}
+
+.bio, .inventions, .carousel {
+    margin-bottom: 2em;
+}
+
+.inventions-columns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.column {
+    background-color: #3d3c3c;
+    color: #fff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.column h3 {
+    margin-top: 0;
+}
+
+.carousel .slider {
+    margin: 0 auto;
+    width: 80%;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.slider img {
+    width: 100%;
+    height: auto;
+}
+.vertical-slider {
+    height: 300px; /* Altura deseada para el carrusel */
+}
+
+.vertical-slider .slick-slide {
+    height: 100%; /* Ajusta la altura de cada slide al tamaño del carrusel */
+}
+
+.vertical-slider .slick-slide img {
+    width: 100%; /* Ajusta el ancho de las imágenes al 100% del slide */
+    height: 100%; /* Ajusta el alto de las imágenes al 100% del slide */
+}
